@@ -1,0 +1,45 @@
+body{
+    background-color: #012E40;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+div{
+    width: 420px;
+    height: 160px;
+    border-radius: 10px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+button{
+    border-radius: 10px;
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.start-btn{
+    background-color: green;
+}
+
+.pause-btn{
+    background-color: grey;
+}
+
+.stop-btn{
+    background-color: red;
+}
